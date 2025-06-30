@@ -1,0 +1,12 @@
+{
+  "en": {
+    "nav.language": "Language",
+    "about.title": "About",
+    "about.subtitle": "Who we are"
+  },
+  "it": {
+    "nav.language": "Lingua",
+    "about.title": "Chi siamo",
+    "about.subtitle": "Chi siamo davvero"
+  }
+}
