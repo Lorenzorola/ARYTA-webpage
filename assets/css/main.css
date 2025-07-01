@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #2a2c39;
+  --background-color: #1E202B;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #404356;
@@ -143,7 +143,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: #1E202B;
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
@@ -175,7 +175,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(42, 44, 57, 0.9);
+  --background-color: #1e202bcb;
 }
 
 /*--------------------------------------------------------------
