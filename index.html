@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Selecao Bootstrap Template</title>
+  <title>ARYTA</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -46,8 +46,8 @@
           <li class="dropdown">
             <a href="#"><span data-i18n="nav.language">Lingua</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#" onclick="event.preventDefault();setLanguage('it');">Italiano</a></li>
-              <li><a href="#" onclick="event.preventDefault();setLanguage('en');">English</a></li>
+              <li><a href="#" onclick="setLanguage('it');">Italiano</a></li>
+              <li><a href="#" onclick="setLanguage('en');">English</a></li>
             </ul>
           </li>
         </ul>
@@ -61,7 +61,7 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background" style="background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <section id="hero" class="hero section dark-background" style="background-image: url('assets/img/bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 
       <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
@@ -70,36 +70,8 @@
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2>
             <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
           </div>
         </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-          </div>
-        </div>
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
       </div>
 
       <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
@@ -124,15 +96,12 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="about.title">About</h2>
-        <p data-i18n="about.subtitle">Who we are</p>
+        <h2 data-i18n="about.title">Cos'è</h2>
+        <p>ARYTA</p>
       </div><!-- End Section Title -->
 
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+          <div class="content" data-aos="fade-up" data-aos-delay="100">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -143,14 +112,6 @@
               <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
             </ul>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-
-        </div>
-
       </div>
 
     </section><!-- /About Section -->
@@ -160,18 +121,18 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>What we do offer</p>
+        <h2 data-i18n="service.title">Services</h2>
+        <p data-i18n="service.subtitle">What we do offer</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
-                <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
+                <i class="bi bi-globe" style="color: #52ad32;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Nesciunt Mete</h3>
@@ -180,10 +141,10 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-calendar4-week" style="color: #fd7e14;"></i>
+                <i class="bi bi-droplet" style="color: #52ad32;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Eosle Commodi</h3>
@@ -192,10 +153,10 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-chat-text" style="color: #20c997;"></i>
+                <i class="bi bi-calendar-check" style="color: #52ad32;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Ledo Markt</h3>
@@ -204,10 +165,10 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-credit-card-2-front" style="color: #df1529;"></i>
+                <i class="bi bi-file-earmark" style="color: #52ad32;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Asperiores Commodit</h3>
@@ -216,10 +177,10 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-globe" style="color: #6610f2;"></i>
+                <i class="bi bi-gear-wide-connected" style="color: #52ad32;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Velit Doloremque</h3>
@@ -228,10 +189,22 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-clock" style="color: #f3268c;"></i>
+                <i class="bi bi-box-seam" style="color: #52ad32;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Dolori Architecto</h3>
+              </a>
+              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            </div>
+          </div><!-- End Service Item -->
+          
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-binoculars" style="color: #52ad32;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Dolori Architecto</h3>
@@ -240,6 +213,17 @@
             </div>
           </div><!-- End Service Item -->
 
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-water" style="color: #52ad32;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Dolori Architecto</h3>
+              </a>
+              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            </div>
+          </div><!-- End Service Item -->
         </div>
 
       </div>
@@ -249,18 +233,28 @@
   <!-- Footer -->
   <footer id="footer" class="footer dark-background">
     <div class="container">
-      <h3 class="sitename">Selecao</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="d-flex align-items-center justify-content-center flex-wrap mb-3" style="gap:2rem;">
+        <img src="assets/img/LogoIntero.png" alt="logoIntero" style="max-width: 10rem;">
+        <!-- Contatti uno sotto l'altro accanto al logo -->
+        <div class="d-flex flex-column" style="gap:0.5rem;">
+          <div class="d-flex align-items-center">
+            <i class="bi bi-telephone flex-shrink-0 me-2"></i>
+            <a href="tel:+391234567890">+39 123 456 7890</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="bi bi-envelope flex-shrink-0 me-2"></i>
+            <a href="mailto:info@aryta.it">info@aryta.it</a>
+          </div>
+        </div>
+        <!-- Fine contatti -->
+      </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
         <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/a.r.yta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Selecao</strong> <span>All Rights Reserved</span>
+          <span>© 2025</span> <strong class="px-1 sitename">ARYTA</strong> <span>All Rights Reserved</span>
         </div>
       </div>
     </div>

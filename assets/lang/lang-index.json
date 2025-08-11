@@ -2,11 +2,13 @@
   "en": {
     "nav.language": "Language",
     "about.title": "About",
-    "about.subtitle": "Who we are"
+    "service.title": "Services",
+    "service.subtitle": "What we do offer"
   },
   "it": {
     "nav.language": "Lingua",
-    "about.title": "Chi siamo",
-    "about.subtitle": "Chi siamo davvero"
+    "about.title": "Cos'è",
+    "service.title": "Servizi",
+    "service.subtitle": "Cosa offriamo"
   }
 }
