@@ -3,12 +3,45 @@
     "nav.language": "Language",
     "about.title": "About",
     "service.title": "Services",
-    "service.subtitle": "What we do offer"
-  },
-  "it": {
+    "service.subtitle": "What we do offer",
+    "service.1": "Global technical assistance",
+    "service.1.1": "Comprehensive support for all technical needs worldwide.",
+    "service.2": "Mechanical and Hydraulic specialists",  
+    "service.2.1": "Expertise in mechanical systems and hydraulic solutions.",
+    "service.3": "Equipment overhaul",
+    "service.3.1": "Complete refurbishment and maintenance of equipment.",
+    "service.4": "Expert reports and consulting",
+    "service.4.1": "Professional assessments and tailored consultancy.",
+    "service.5": "Shipbuilding and project management",
+    "service.5.1": "Management and supervision of shipbuilding projects.",
+    "service.6": "Logistics and transport",
+    "service.6.1": "Efficient organization of logistics and transportation.",
+    "service.7": "Guarding",
+    "service.7.1": "Security and protection services.",
+    "service.8": "Transfers",
+    "service.8.1": "Coordination of personnel and equipment transfers."
+    }, 
+    "it": {
     "nav.language": "Lingua",
     "about.title": "Cos'è",
     "service.title": "Servizi",
-    "service.subtitle": "Cosa offriamo"
+    "service.subtitle": "Cosa offriamo",
+    "service.1": "Assistenza tecnica globale",
+    "service.1.1": "Supporto completo per tutte le esigenze tecniche a livello mondiale.",
+    "service.2": "Specialisti in Meccanica e Oleodinamica",  
+    "service.2.1": "Esperti in sistemi meccanici e soluzioni oleodinamiche.",
+    "service.3": "Revisione dotazioni",
+    "service.3.1": "Revisione e manutenzione completa delle dotazioni.",
+    "service.4": "Perizie e consulenze",
+    "service.4.1": "Valutazioni professionali e consulenze su misura.",
+    "service.5": "Cantieristica e project management",
+    "service.5.1": "Gestione e supervisione di progetti cantieristici.",
+    "service.6": "Logistica e trasporti",
+    "service.6.1": "Organizzazione efficiente di logistica e trasporti.",
+    "service.7": "Guardianaggio",
+    "service.7.1": "Servizi di sicurezza e protezione.",
+    "service.8": "Trasferimenti",
+    "service.8.1": "Coordinamento di trasferimenti di personale e attrezzature."
   }
 }
+
